@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'BasicCommercial LT Roman';
+  src: url('../../../public/fonts/BC/BasicCommercialLT-Roman.ttf');
+  src: local('BasicCommercial LT Black'), local('BasicCommercialLT-Black'),
+      url('../../../public/fonts/BC/BasicCommercialLT-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+}
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    font-family:'BasicCommercial LT Roman';
+    font-weight: bold;
+  }
+
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 120px;
+    margin-top: -2vh;
+    margin-bottom: 8vh;
+    font-family:'BasicCommercial LT Black';
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }

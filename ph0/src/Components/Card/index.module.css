@@ -1,0 +1,98 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .card {
+    width: 120px;
+    height: 200px;
+    padding: 0.8em;
+    background: #d5e3e670;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    border-radius: 8px;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.12), 0 4px 15px rgba(0, 0, 0, 0.24);
+  }
+  
+  .card_img {
+    background-color: #ffffff;
+    height: 55%;
+    width: 100%;
+    border-radius: 0.3rem;
+    transition: 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_img img {
+    width: 80%;
+    border-radius: 0.5rem;
+  }
+  
+  .card_info {
+    margin: 0;
+    margin-top: 0;
+  
+  }
+  
+  .svg_icon {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .card_footer {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  /*Text*/
+  .text_title {
+    font-weight: 700;
+    display: flex;
+    font-size: 12px;
+    align-self: center;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    font-family: 'Open Sans';
+  }
+  
+  .text_body {
+    line-height: 1rem;
+    font-size: 0.20rem;
+    padding: 0px;
+  }
+  
+  /*Button*/
+  .card_button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: 0.3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /*Hover*/
+  .card_img:hover {
+    transform: translateY(-10%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px,
+      rgba(69, 175, 218, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .card_button:hover {
+    border: 0.2px solid black;
+    background-color: var(--smonkey-violeta-1);
+  }

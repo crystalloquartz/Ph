@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Caveat&family=Concert+One&family=Courgette&family=Dangrek&family=Fredoka+One&family=Itim&family=Neucha&family=Pacifico&family=Pangolin&family=Patrick+Hand&family=Sniglet&family=Sono:wght@300;400;500;600&family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: "SF";
+  src: url("/src/Assets/SF.ttf") format("truetype");
+  font-weight: 800;
+  height: 100%;
+  width: 100%;
+}
+
+
+@font-face {
+  font-family: 'BasicCommercial LT Roman';
+  src: url('../public/fonts/BC/BasicCommercialLT-Roman.ttf');
+  src: local('BasicCommercial LT Black'), local('BasicCommercialLT-Black'),
+      url('../public/fonts/BC/BasicCommercialLT-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT';
+
+  src: local('BasicCommercial LT Bold Italic'), local('BasicCommercialLT-BoldItalic'),
+      url('../public/fonts/BC/BasicCommercialLT-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT Roman';
+
+  src: local('BasicCommercial LT Black Italic'), local('BasicCommercialLT-BlackItalic'),
+      url('../public/fonts/BC/BasicCommercialLT-BlackItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT';
+  src: local('BasicCommercial LT Bold'), local('BasicCommercialLT-Bold'),
+      url('../public/fonts/BC/BasicCommercialLT-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT';
+
+  src: local('BasicCommercial LT Light'), local('BasicCommercialLT-Light'),
+      url('../public/fonts/BC/BasicCommercialLT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT';
+
+  src: local('BasicCommercial LT Light Italic'), local('BasicCommercialLT-LightItalic'),
+      url('../public/fonts/BC/BasicCommercialLT-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT Roman';
+
+  src: local('BasicCommercial LT Roman'), local('BasicCommercialLT-Roman'),
+      url('../public/fonts/BC/BasicCommercialLT-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BasicCommercial LT Roman';
+
+  src: local('BasicCommercial LT Italic'), local('BasicCommercialLT-Italic'),
+      url('../public/fonts/BC/BasicCommercialLT-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+:root {
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --color-grey-700: #dce9ea;
+  --smonkey-celeste-1: #3EC8FF;
+  --smonkey-rosa-1:  ;
+  --smonkey-blanco-1: #ffffff;
+  --smonkey-violeta-1: #c49de4;
+  --smonkey-aux: #c699e9;
+  --ph0-negro-1: #50514F;
+  --ph0-violeta-1: #B4ADEA;
+  --ph0-blanco-1: #FDFFF7;
+  --ph0-rosa-1: #FFB5ED;
+  --ph0-verde: #59FFA0;
+  --ph0-amarillo: #FFED65;
+
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "BasicCommercial LT Italic", sans-serif;
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  margin-bottom: 220px;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--smonkey-celeste-1)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgb(192, 3, 255)
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rebeccapurple;
+  cursor: pointer;
+}
+

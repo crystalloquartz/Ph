@@ -1,0 +1,33 @@
+.container{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.swiperContainer{
+    overflow-x: hidden;
+    margin-top: 25px;
+    width: 100%;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slice{
+    width: 20px;
+}
+.swiper-pagination-bullet {
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    margin-right: 6px;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color:var(--smonkey-violeta-1);
+    opacity: 1;
+  }

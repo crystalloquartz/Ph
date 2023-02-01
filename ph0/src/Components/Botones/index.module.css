@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+.buttoncontainer{
+  border-color: black;
+  color: black;
+  padding: 12px 32px;
+  background: transparent;
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 5px;
+  font-family: 'Open Sans', sans-serif;
+  scale: 1;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  bottom: 50%;
+  top: 50%;
+  height: 50%;
+  
+}

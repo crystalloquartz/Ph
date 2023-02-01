@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'BasicCommercial LT Roman';
+  src: url('../../../public/fonts/BC/BasicCommercialLT-Roman.ttf');
+  src: local('BasicCommercial LT Black'), local('BasicCommercialLT-Black'),
+      url('../../../public/fonts/BC/BasicCommercialLT-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+}
+
+
+
+.container {
+    width: 100%;
+    position: relative;
+    font-family: 'BasicCommercial LT Roman';
+  }
+  
+  .dropBox {
+    height: 25px;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 90%;
+    font-family: 'BasicCommercial LT Roman';
+  }
+  .dropBox::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 25px;
+    top: 5px;
+    z-index: 3;
+    width: 7px;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    border: 1.4px solid rgb(1, 1, 1);
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    font-family: 'BasicCommercial LT Roman';
+    z-index: 1;
+  }
+  .active::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 25px;
+    top: 5px;
+    z-index: 3;
+    width: 7px;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    border: 1.4px solid rgb(1, 1, 1);
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  .dropBox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    left: 4%;
+    cursor: pointer;
+    box-shadow: 0 5px 20 px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    height: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'BasicCommercial LT Roman';
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+  .dropBox .option {
+    position: relative;
+    font-family: 'BasicCommercial LT Roman';
+    top: 30px;
+    left: 4%;
+    width: 90%;
+    background: #ffff;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: block;
+    border-radius: 5px;
+    z-index: 50;
+    transition: all 300ms ease-in-out;
+  }
+  .none {
+    display: none;
+    transition: all 300ms ease-in-out;
+    font-family: 'BasicCommercial LT Roman';
+  }
+  .dropBox .option div {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    padding: 1px 20px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+    font-family: 'BasicCommercial LT Roman';
+    
+  }
+  .selectionator div:hover {
+    background-color:#B4ADEA;
+    color:#B4ADEA;
+    font-family: 'BasicCommercial LT Roman';
+
+  }
+  
