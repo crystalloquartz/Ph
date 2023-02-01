@@ -1,0 +1,22 @@
+DTO superusuario
+DTO carrito
+Factura B
+Efectivo
+MP API
+Nombre titular de la cuenta
+CBU (decidir)
+Cuenta Comercial
+agregar los productos a postgres
+config postgres
+categorias
+CLOUDINARY PLISSS
+
+
+
+//
+DETALLE PRODUCTO --
+ESTADO CARRITO FLOAT -- 
+NOSOTROS --
+
+
+PASARELA --
