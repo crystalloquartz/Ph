@@ -19,7 +19,7 @@
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 20s linear infinite;
+    animation: marquee 15s linear infinite;
   }
   
   .marquee p {
@@ -27,7 +27,7 @@
     text-transform: capitalize;
     font-size: 120px;
     margin-top: -2vh;
-    margin-bottom: 8vh;
+    margin-bottom: 10vh;
     font-family:'BasicCommercial LT Black';
   }
   

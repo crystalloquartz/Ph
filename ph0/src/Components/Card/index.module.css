@@ -11,7 +11,7 @@
     width: 120px;
     height: 200px;
     padding: 0.8em;
-    background: #d5e3e670;
+    background: black;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
   }
   
   .card_img {
-    background-color: #ffffff;
+    background-color: black;
     height: 55%;
     width: 100%;
     border-radius: 0.3rem;

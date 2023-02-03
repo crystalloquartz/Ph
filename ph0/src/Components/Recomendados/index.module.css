@@ -1,11 +1,13 @@
 .container{
   flex-direction: column;
+  margin-top: -1px;
   gap: 20px;
-  margin-top: 50px;
   width: 100%;
-  height: 300px;
+  height: 320px;
   display: flex;
-  background-color:white;
+  background-image: url('../../Assets/backrec.svg');
+  background-position: 20%;
+  background-size: 150%;
 }
 
 .swiperContainer{
@@ -13,19 +15,18 @@
   display:flex;
   justify-content: center;
   width: 100%;
-  
+  color:white;
 }
 
 
 .swiper-pagination-bullet {
   height: 10px;
   width: 10px;
-  margin-right: 6px;
-  opacity: 0.5;
+  opacity: 0.2;
   cursor: pointer;
   border-radius: 100%;
 }
 
 .swiperpagination-bullet-active {
-  opacity: 1;
+  opacity: 0.2px;
 }
